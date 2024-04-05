@@ -7,6 +7,9 @@ module.exports = {
     filename: "./client.bundle.js",
     path: path.resolve(__dirname, "public"),
   },
+  resolve: {
+    extensions: [".js", ".jsx", ".tsx", ".ts"],
+  },
   module: {
     rules: [
       {
