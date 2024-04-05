@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:server": "webpack --config webpack.client.js && webpack --config webpack.server.js && node ./dist/server.bundle.js",
     "start:client": "webpack --config webpack.client.js",
-    "build": "webpack --config webpack.client.js && webpack --config webpack.build.js && node ./dist/build.bundle.js"
+    "build": "webpack --config webpack.client.js && webpack --config webpack.build.js && node ./dist/dist.bundle.js",
+    "isr": "webpack --config webpack.isr.js && node ./dist/isr.bundle.js"
   },
   "author": "Loogeek",
   "license": "MIT",
